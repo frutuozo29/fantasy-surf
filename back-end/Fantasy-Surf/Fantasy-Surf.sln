@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{6DB118D2-3CE3-418E-8BAE-62FB3CEB4978}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{6229D50C-58A2-4FCA-BAED-A46142F16BD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{615FBDDA-4E5B-46B7-B1B8-98E80F4B6701}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{8AC84B85-85D3-4E84-858B-79BF99AB6DBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{75CF089E-0E56-4A10-8F99-2BEEFD2B7174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy-Surf.Domain", "src\Fantasy-Surf.Domain\Fantasy-Surf.Domain.csproj", "{9D7FC3AF-CAE2-4D74-A0B2-2D4348D2C88F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{35E38B8D-0A12-4BD7-812B-E05CFDCD985C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - IoC", "4.2 - IoC", "{D290CF29-4E60-4FA7-93A6-12C1D0EFFD3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy-Surf.Infra.IoC", "src\Fantasy-Surf.Infra.IoC\Fantasy-Surf.Infra.IoC.csproj", "{10422DD8-C680-4E1D-B7E2-3A10AFA541F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy-Surf.Infra.Data", "src\Fantasy-Surf.Infra.Data\Fantasy-Surf.Infra.Data.csproj", "{8AE3D33E-A40B-4908-B068-A6E92F5BDB9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy-Surf.Application", "src\Fantasy-Surf.Application\Fantasy-Surf.Application.csproj", "{AC958000-B9B1-4301-BFAC-CAC06335DE67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 WebApi", "1.1 WebApi", "{15432D0C-5980-421A-AC02-31BA6CC361BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy-Surf.Application.WebApi", "src\Fantasy-Surf.Application.WebApi\Fantasy-Surf.Application.WebApi.csproj", "{FC392DD9-C286-430A-BA93-F30AD8761CFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D7FC3AF-CAE2-4D74-A0B2-2D4348D2C88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D7FC3AF-CAE2-4D74-A0B2-2D4348D2C88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D7FC3AF-CAE2-4D74-A0B2-2D4348D2C88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D7FC3AF-CAE2-4D74-A0B2-2D4348D2C88F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10422DD8-C680-4E1D-B7E2-3A10AFA541F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10422DD8-C680-4E1D-B7E2-3A10AFA541F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10422DD8-C680-4E1D-B7E2-3A10AFA541F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10422DD8-C680-4E1D-B7E2-3A10AFA541F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE3D33E-A40B-4908-B068-A6E92F5BDB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE3D33E-A40B-4908-B068-A6E92F5BDB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE3D33E-A40B-4908-B068-A6E92F5BDB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE3D33E-A40B-4908-B068-A6E92F5BDB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC958000-B9B1-4301-BFAC-CAC06335DE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC958000-B9B1-4301-BFAC-CAC06335DE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC958000-B9B1-4301-BFAC-CAC06335DE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC958000-B9B1-4301-BFAC-CAC06335DE67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC392DD9-C286-430A-BA93-F30AD8761CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC392DD9-C286-430A-BA93-F30AD8761CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC392DD9-C286-430A-BA93-F30AD8761CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC392DD9-C286-430A-BA93-F30AD8761CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D7FC3AF-CAE2-4D74-A0B2-2D4348D2C88F} = {8AC84B85-85D3-4E84-858B-79BF99AB6DBD}
+		{35E38B8D-0A12-4BD7-812B-E05CFDCD985C} = {75CF089E-0E56-4A10-8F99-2BEEFD2B7174}
+		{D290CF29-4E60-4FA7-93A6-12C1D0EFFD3D} = {75CF089E-0E56-4A10-8F99-2BEEFD2B7174}
+		{10422DD8-C680-4E1D-B7E2-3A10AFA541F8} = {D290CF29-4E60-4FA7-93A6-12C1D0EFFD3D}
+		{8AE3D33E-A40B-4908-B068-A6E92F5BDB9F} = {35E38B8D-0A12-4BD7-812B-E05CFDCD985C}
+		{AC958000-B9B1-4301-BFAC-CAC06335DE67} = {615FBDDA-4E5B-46B7-B1B8-98E80F4B6701}
+		{15432D0C-5980-421A-AC02-31BA6CC361BC} = {6229D50C-58A2-4FCA-BAED-A46142F16BD8}
+		{FC392DD9-C286-430A-BA93-F30AD8761CFE} = {15432D0C-5980-421A-AC02-31BA6CC361BC}
+	EndGlobalSection
+EndGlobal
