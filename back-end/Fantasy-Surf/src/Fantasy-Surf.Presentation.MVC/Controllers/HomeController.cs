@@ -19,7 +19,7 @@ namespace Fantasy_Surf.Presentation.MVC.Models
         // GET: Home/Create
         public ActionResult Create()
         {
-            return View();
+             return View();
         }
 
         // POST: Home/Create
