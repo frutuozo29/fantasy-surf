@@ -1,5 +1,6 @@
 ﻿using Fantasy_Surf.Domain.Entities;
 using Fantasy_Surf.Infra.Data.EntityConfig;
+using Fantasy_Surf.Infra.Data.Migrations;
 using System;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
@@ -12,7 +13,7 @@ namespace Fantasy_Surf.Infra.Data.Contexto
         public FantasySurfContext()
             : base("FantasySurf")
         {
-
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<FantasySurfContext, Configuration>());
         }
 
         public DbSet<RegrasFantasy> RegrasFantasy { get; set; }
