@@ -25,9 +25,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy-Surf.Infra.Data", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy-Surf.Application", "src\Fantasy-Surf.Application\Fantasy-Surf.Application.csproj", "{AC958000-B9B1-4301-BFAC-CAC06335DE67}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 WebApi", "1.1 WebApi", "{15432D0C-5980-421A-AC02-31BA6CC361BC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - WebApi", "1.1 - WebApi", "{15432D0C-5980-421A-AC02-31BA6CC361BC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{018A66D0-B38C-47E8-9609-1D68A2677D29}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.1 - MVC", "0.1 - MVC", "{018A66D0-B38C-47E8-9609-1D68A2677D29}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy-Surf.Presentation.MVC", "src\Fantasy-Surf.Presentation.MVC\Fantasy-Surf.Presentation.MVC.csproj", "{B25495A9-ADE2-4F26-AB58-9D1CC40D3118}"
 EndProject
