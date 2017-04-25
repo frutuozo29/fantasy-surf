@@ -6,6 +6,5 @@ before_build:
 
 # package Web Application project for Web Deploy
 build:
-  project: fantasy-surf\back-end\fantasy-surf\Fantasy-Surf.sln
   verbosity: minimal
   publish_wap: true
